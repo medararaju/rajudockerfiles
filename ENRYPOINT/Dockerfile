@@ -1,2 +1,3 @@
 FROM almalinux
-ENTRYPOINT [ "ping", "-c5","google.com"]
+CMD ["yahoo.com"]
+ENTRYPOINT [ "ping", "-c5",]
